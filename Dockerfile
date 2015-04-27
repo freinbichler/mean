@@ -2,7 +2,7 @@ FROM mhart/alpine-iojs:latest
 
 WORKDIR /
 
-RUN sudo npm install --production
+RUN npm install
 ENV NODE_ENV production
 
 EXPOSE 3000
